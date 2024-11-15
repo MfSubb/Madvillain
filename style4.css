@@ -1,0 +1,15 @@
+* {
+    cursor: url('cosas/Webp.net-resizeimage.png'), auto;
+}
+
+.overlay-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(cosas/estatica.gif);
+    opacity: 0.2;
+    z-index: 3;
+    pointer-events: none;
+}
